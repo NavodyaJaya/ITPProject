@@ -5,15 +5,17 @@
  */
 package Event;
 
+import Event.Classes.Ad_Payments;
+
 /**
  *
  * @author Navodya
  */
 public class AdPayment extends javax.swing.JInternalFrame {
 
-    /**
-     * Creates new form AdPayment
-     */
+    Ad_Payments pay = new Ad_Payments();
+    
+   
     public AdPayment() {
         initComponents();
     }
